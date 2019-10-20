@@ -1,0 +1,89 @@
+.location-contact {
+    display: flex;
+    font-size: 20px;
+}
+
+.info {
+    width: 50%;
+    height: 400px;
+    margin: 10px;
+    text-align: center;
+}
+
+.info h3 {
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+
+.info i {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.info label {
+    font-weight: bold;
+}
+
+.contact {
+    width: 50%;
+    height: 400px;
+    margin: 10px;
+    display: flex;
+}
+
+.contact form {
+    margin-top: 20px;
+}
+
+.contact label {
+    margin: 10px;
+}
+
+.contact input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.contact textarea {
+    resize: none;
+    height: 100px;
+    width: 92%;
+    margin: 10px;
+}
+
+.contact form button {
+    margin: 10px;
+    background-color: #333;
+    border: none;
+    padding: 20px;
+}
+
+.location {
+    width: auto;
+    margin: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+.location iframe {
+    width: 100%;
+}
+
+@media screen and (max-width:768px) {
+    .location-contact {
+        flex-wrap: wrap;
+    }
+    .contact {
+        width: 100%;
+    }
+    .info {
+        width: 100%;
+    }
+    .contact form button {
+        width: 90%;
+    }
+    .contact textarea {
+        width: 90%;
+    }
+}
